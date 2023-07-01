@@ -6,7 +6,8 @@ Scripts used in our official [Raspberry Pi power button guide](https://howchoo.c
 
 1. [Connect to your Raspberry Pi via SSH](https://howchoo.com/g/mgi3mdnlnjq/how-to-log-in-to-a-raspberry-pi-via-ssh)
 1. Clone this repo: `git clone https://github.com/AllanTaylor314/pi-power-button.git`
-1. Optional: Edit line 9/10 in listen-for-shutdown.py to your preferred pin (Please see "Is it possible to use another pin other than Pin 5 (GPIO 3/SCL)?" below!)
+1. Optional: Edit line 3 in listen-for-shutdown.py to your preferred pin (Please see "Is it possible to use another pin other than Pin 5 (GPIO 3/SCL)?" below!)
+1. Optional: Edit line 4 in listen-for-shutdown.py to change delay. The button must be held for N milliseconds to trigger a shutdown
 1. Run the setup script: `./pi-power-button/script/install`
 
 ## Uninstallation
